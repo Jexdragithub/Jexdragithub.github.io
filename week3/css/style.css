@@ -15,12 +15,10 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 	/*//////*/
-	font-size: 100px;
+	font-size: 70px;
 	color:white;
-	font-style: italic;
-	font-weight: bold;
 	-webkit-text-stroke-width: 3px;
-	-webkit-text-stroke-color: blue;
+	-webkit-text-stroke-color: teal;
 	letter-spacing: -3px;
 }
 
@@ -66,7 +64,7 @@
 	font-family: sans-serif;
 	font-size: 9px;
 	text-align: center;
-	background-color:white;
+	background-color:grey;
 	border:3px solid black;
 	border-radius: 12%;
 	padding: 6px;
@@ -75,11 +73,11 @@
 	position: absolute;
 	top: 7%;
 	right: 3%;
-	color:white;
+	color:lime;
 	font-family: sans-serif;
 	font-size: 9px;
 	text-align: center;
-	background-color:green;
+	background-color:lime;
 	border:3px solid black;
 	border-radius: 12%;
 	padding: 6px;
