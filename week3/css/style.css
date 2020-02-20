@@ -16,6 +16,7 @@
 	-webkit-text-stroke-width: 2px;
 	-webkit-text-stroke-color: blue;
 	letter-spacing: -3px;
+	text-align: center;
 }
 
 #subtitle{
@@ -47,8 +48,9 @@
 	position: absolute;
 	bottom: 7%;
 	left: 3%;
-	font-family: serif;
+	font-family: sans-serif;
 	text-align: center;
+	letter-spacing: -2px;
 }
 
 #calories{
@@ -68,6 +70,7 @@
 	bottom: 10%;
 	right: 3%;
 	font-size: 12px;
+	text-align: right;
 }
 #wholegrain{
 	position: absolute;
