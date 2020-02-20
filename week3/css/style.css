@@ -1,0 +1,98 @@
+#package{
+	width: 720px;
+	height: 240px;
+	background-color: blue;
+	/* horizontal + vertical center align - parent div */
+	position: relative;
+	/*//////*/
+}
+
+#name{
+	/* horizontal + vertical center align - child div */
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	/*//////*/
+	font-size: 100px;
+	color:white;
+	font-style: italic;
+	font-weight: bold;
+	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-color: blue;
+	letter-spacing: -3px;
+}
+
+#subtitle{
+	position: absolute;
+	top: 34%;
+	left: 40%;
+	color:red;
+	font-family: sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-color: blue;
+	font-size: 12px;
+}
+
+#subtitle2{
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	font-family: sans-serif;
+	font-weight: bold;
+	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-color: blue;
+	font-size: 16px;
+	color: yellow;
+	padding:9px;
+}
+
+#weight{
+	position: absolute;
+	bottom: 7%;
+	left: 3%;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+#calories{
+	position: absolute;
+	bottom: 7%;
+	right: 3%;
+	font-family: sans-serif;
+	font-size: 9px;
+	text-align: center;
+	background-color:white;
+	border:3px solid black;
+	border-radius: 12%;
+	padding: 6px;
+}
+#wholegrain{
+	position: absolute;
+	top: 7%;
+	right: 3%;
+	color:white;
+	font-family: sans-serif;
+	font-size: 9px;
+	text-align: center;
+	background-color:green;
+	border:3px solid black;
+	border-radius: 12%;
+	padding: 6px;
+}
+
+#cal_number{
+	font-size: 19px;
+}
+
+#original_img_container{
+	width: 720px;
+}
+
+#original_img{
+	width: 100%;
+}
