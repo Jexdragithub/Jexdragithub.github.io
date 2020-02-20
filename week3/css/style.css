@@ -1,24 +1,20 @@
 #package{
 	width: 720px;
 	height: 240px;
-	background-color: blue;
-	/* horizontal + vertical center align - parent div */
+	background-color: teal;
 	position: relative;
-	/*//////*/
 }
 
 #name{
-	/* horizontal + vertical center align - child div */
 	margin: 0;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	/*//////*/
-	font-size: 70px;
+	font-size: 50px;
 	color:white;
-	-webkit-text-stroke-width: 3px;
-	-webkit-text-stroke-color: teal;
+	-webkit-text-stroke-width: 5px;
+	-webkit-text-stroke-color: blue;
 	letter-spacing: -3px;
 }
 
