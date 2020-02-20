@@ -2,7 +2,7 @@
 	width: 720px;
 	height: 340px;
 	background-color: #03b1fc;
-	position: relative;
+	position: absolute;
 	z-index: 2;
 }
 #contents{
