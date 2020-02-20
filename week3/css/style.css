@@ -3,8 +3,17 @@
 	height: 340px;
 	background-color: #03b1fc;
 	position: relative;
+	z-index: 2;
 }
-
+#contents{
+	width: 720px;
+	height: 340px;
+	position: absolute;
+	z-index: 1;
+}
+#package:hover{
+	display: none;
+}
 #name{
 	margin: 0;
 	position: absolute;
