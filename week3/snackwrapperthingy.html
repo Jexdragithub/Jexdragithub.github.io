@@ -38,6 +38,16 @@
 	<div id="original_img_container">
 	<img src="media/my_snack.png" id="original_img" />
 	</div>
+<script type="text/javascript">
+	var x = document.getElementsByClassName("bucket");
+	var lengthOfX = x.length;
 
+	for (var i = 0; i <lengthOfX; i++) {
+		var randX = Math.random() * window.innerWidth;
+		var randY = Math.random() * window.innerHeight;
+		var deg = Math.random() * 360;
+		x[i].style.transform = "translate("+randX+"px,"+randY+"px) rotate("+deg+"deg)";
+	}
+</script>
 </body>
 </html>
