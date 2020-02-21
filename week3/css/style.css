@@ -2,13 +2,13 @@
 	width: 720px;
 	height: 340px;
 	background-color: #03b1fc;
-	position: absolute;
+	position: relative;
 	z-index: 2;
 }
 #contents{
 	width: 720px;
 	height: 340px;
-	position: absolute;
+	position: relative;
 	z-index: 1;
 }
 #package:hover{
@@ -104,4 +104,5 @@
 
 #original_img{
 	width: 100%;
+	position: absolute;
 }
