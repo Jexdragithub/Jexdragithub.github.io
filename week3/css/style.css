@@ -33,10 +33,12 @@
 	top: 14%;
 	left: 40%;
 	color:red;
-	font-family: sans-serif;
+	font-family: Brush Script MT;
 	font-style: italic;
 	font-weight: bold;
-	font-size: 32px;
+	font-size: 36px;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: white;
 }
 
 #subtitle2{
