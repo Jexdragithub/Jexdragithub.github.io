@@ -100,7 +100,7 @@
 
 #original_img_container{
 	width: 720px;
-	position: absolute;
+	position: relative;
 }
 
 #original_img{
