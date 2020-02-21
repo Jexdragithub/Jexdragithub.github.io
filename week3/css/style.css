@@ -2,13 +2,13 @@
 	width: 720px;
 	height: 340px;
 	background-color: #03b1fc;
-	position: relative;
+	position: absolute;
 	z-index: 2;
 }
 #contents{
 	width: 720px;
 	height: 340px;
-	position: relative;
+	position: absolute;
 	z-index: 1;
 }
 #package:hover{
