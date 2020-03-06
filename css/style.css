@@ -3,7 +3,7 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	font-family: 'Krona One', sans-serif;
+	font-family: 'Fredoka One', sans-serif;
 	font-size: 80px;
 	transition: -webkit-text-stroke-color 2s, color 2s;
 }
@@ -19,14 +19,14 @@
 	list-style-type: none;
   	margin: 0;
   	padding: 0;
-  	font-family: 'Bad Script', cursive;
+  	font-family: 'Fredoka One', cursive;
   	font-size: 80px;
 }
 .work_list{
 	list-style-type: none;
   	margin: 0;
   	padding: 0;
-  	font-family: 'Bad Script', cursive;
+  	font-family: 'Terminal', cursive;
   	font-size: 28px;
 }
 #menu_home:hover{
