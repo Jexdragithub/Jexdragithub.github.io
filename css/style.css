@@ -1,3 +1,40 @@
+body{
+	font-family: 'Fredoka One';
+}
+.landing_animation_container{
+	width: 100%;
+	height: 100%;
+	background: gray;
+	position: fixed;
+	top:0;
+	left:0;
+	z-index: 0;
+	animation-name: fadingin;
+	animation-duration: 4s;
+	animation-fill-mode:forwards;
+	animation-delay: 2s;
+}
+
+@keyframes fadingin {
+	0%   { opacity: 1; }
+	99%  { opacity: 0; z-index: 0;}
+	100% { opacity: 0; z-index: -1;}
+}
+
+.main_title{
+	color: white;
+	font-size: 44px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.txt_container{
+  	font-size: 44px;
+  	width:80%;
+  	margin: 0px auto;
+}
 .title{
 	position: absolute;
 	top: 50%;
